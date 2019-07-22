@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-for",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkfor/for-lint.git"
+  },
+  "author": "kkfor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkfor/for-lint/issues"
+  },
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/kkfor/for-lint#readme"
+}
