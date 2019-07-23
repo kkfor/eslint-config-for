@@ -19,5 +19,9 @@
     "dist/",
     "LICENSE"
   ],
-  "homepage": "https://github.com/kkfor/for-lint#readme"
+  "homepage": "https://github.com/kkfor/for-lint#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0"
+  }
 }
