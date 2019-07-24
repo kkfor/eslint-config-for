@@ -1,11 +1,11 @@
 module.exports = {
+  extends: ['./index.js'],
+  plugins: ['react'],
   rules: {
     /**
-     * 一个 defaultProps 必须有对应的 propTypes
-     * @category React
-     * @reason 不强制要求写 propTypes
+     * jsx 文件必须导入 React
      */
-    'react/default-props-match-prop-types': 'off',
+    'react/jsx-uses-react': 'error',
     /**
      * render 方法中必须有返回值
      */
@@ -14,6 +14,10 @@ module.exports = {
      * style 属性的取值必须是 object
      */
     'react/style-prop-object': 'error',
+    /**
+     * 禁止使用已废弃的 api
+     */
+    'react/no-deprecated': 'error',
     /**
      * HTML 中的自闭和标签禁止有 children
      */
