@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./lint/base.lint.js'],
+  extends: ['./base.js'],
   rules: {
     /**
      * 禁止出现 foo['bar']，必须写成 foo.bar
