@@ -1,4 +1,7 @@
 module.exports = {
+  extends: ['./index.js'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   rules: {
     'no-unused-vars': 'off',
     /**

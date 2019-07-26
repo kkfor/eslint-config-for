@@ -7,6 +7,10 @@ module.exports = {
      */
     'react/jsx-uses-react': 'error',
     /**
+     * 定义了的 jsx element 必须使用
+     */
+    'react/jsx-uses-vars': 'error',
+    /**
      * render 方法中必须有返回值
      */
     'react/require-render-return': 'error',
@@ -21,10 +25,6 @@ module.exports = {
     /**
      * HTML 中的自闭和标签禁止有 children
      */
-    'react/void-dom-elements-no-children': 'error',
-    /**
-     * 定义了的 jsx element 必须使用
-     */
-    'react/jsx-uses-vars': 'error'
+    'react/void-dom-elements-no-children': 'error'
   }
 }
